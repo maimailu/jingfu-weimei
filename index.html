@@ -427,7 +427,7 @@
 				<div class="position-relative iphone-env">
 
 					<div class="scrolling-wrapper ">
-						<div class="map" style=""></div>
+						<div class="map" style=></div>
 						<img src="pic/3/pic03-1.jpg" alt="" class="map-bg">
 
 						<div class="overlay-cover">
@@ -522,7 +522,7 @@
 					<div class="position-relative overflow-hidden iphone-env ">
 
 						<div class="scrolling-wrapper ">
-							<div class="map" style=""></div>
+							<div class="map" style=></div>
 							<img src="pic/5/pic05-1.jpg" alt="" class="map-bg">
 
 							<div class="overlay-cover2">
@@ -1269,14 +1269,14 @@
 
                 const result = await response.json();
                 if (response.ok) {
-                    alert('Email sent successfully');
+                    alert('傳送成功');
 					event.target.reset();
                 } else {
-                    alert('Error sending email: ' + result.message);
+                    alert('傳送失敗: ' + result.message);
                 }
             } catch (error) {
                 console.error('Error:', error);
-                alert('Error sending email: ' + error.message);
+                alert('傳送失敗: ' + error.message);
             }
         });
 		 </script>
