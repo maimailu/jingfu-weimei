@@ -1281,7 +1281,9 @@
 
                 const result = await response.json();
                 if (response.ok) {
-                    alert('傳送成功');
+					setTimeout(function() {
+                window.location.href = "https://www.maizizi.vaserver.com/jingfu-weimei/"; 
+            }, 3000);
 					event.target.reset();
                 } else {
                     alert('傳送失敗: ' + result.message);
