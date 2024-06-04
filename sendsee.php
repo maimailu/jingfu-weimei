@@ -10,7 +10,7 @@
 	<h2>發送成功，感謝您的意見來信.</h2>
 
 	<?php
-$sendTo = "maizizi@gmail.com,jouce1212@gmail.com";//收件者
+$sendTo = "jouce1212@gmail.com";//收件者
 $subject = "【景福維美】來自官網的訪客信"; //主旨
 $namess = $_POST['name'] ;
 $phone = $_POST['phone'];
