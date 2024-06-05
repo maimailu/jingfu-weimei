@@ -981,7 +981,7 @@
 								</div>
 
 								<div class="form-group">
-									<div class=" twzipcode " id="zipcode3" name="area_source" data-validation-required-message="Please enter your source." required>
+									<div class=" twzipcode " id="zipcode3" name="area_source" >
 
 										<input type="hidden" data-role="zipcode" />
 										<p class="help-block text-danger"></p>
@@ -1133,6 +1133,16 @@
 
 
 
+		<script>//remove validations on entire form
+			$("#yourFormId")
+				.removeData("validator")
+				.removeData("unobtrusiveValidation");
+			
+			//Simply add it again
+			$.validator
+				.unobtrusive
+				.parse("#yourFormId");</script>
+
 		<!-- TW City Selector -->
 		<script src="js/jquery.twzipcode.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -1149,6 +1159,14 @@
 				countyName: "city", // 指定城市 select name
 				districtName: "town", // 指定地區 select name
 			});
+
+			//需必填驗證才能送出表單
+			$('#zipcode3').twzipcode('get', function (county, district, zipcode) {
+    console.log(county);   // 縣市
+    console.log(district); // 鄉鎮市區
+    $("select[name='city']").prop('required',true);
+    $("select[name='town']").prop('required',true);
+});
 
 		</script>
 
