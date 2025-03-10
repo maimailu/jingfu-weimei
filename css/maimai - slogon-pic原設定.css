@@ -1063,12 +1063,11 @@ header {
 }
 
 
-
 .slogon-pic {
 	width: 45%;
-	/* position: absolute; */
-	padding-top: 0%;
-	margin: 0 auto;
+	position: relative;
+	padding-top: 4%;
+	right: 10px;
 }
 
 
@@ -1849,17 +1848,16 @@ section h2.section-heading1 {
 	.logo {
 		width: 20%;
 		position: relative;
-		padding-bottom: 0%;
+		padding-bottom: 55%;
 	}
-
 
 	.slogon-pic {
-		width: 45%;
-		/* position: absolute; */
-		padding-top: 0%;
-		margin: 0 auto;
+		width: 50%;
+		position: relative;
+		padding-top: 2%;
+		right: 0px;
+		bottom: 600px;
 	}
-
 
 	.textbox-right {
 		right: 0px;
