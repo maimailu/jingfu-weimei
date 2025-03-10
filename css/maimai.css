@@ -1888,7 +1888,7 @@ section h2.section-heading1 {
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1192px) {
 
 	.logo {
 		width: 18%;
@@ -1912,7 +1912,7 @@ section h2.section-heading1 {
 @media screen and (max-width: 1024px) {
 
 	.logo {
-		width: 25%;
+		width: 20%;
 		position: relative;
 		padding-bottom: 45%;
 		margin: auto;
@@ -1920,9 +1920,9 @@ section h2.section-heading1 {
 	}
 
 	.slogon-pic {
-		width: 50%;
+		width: 35%;
 		position: relative;
-		padding-top: 20%;
+		padding-top: 8%;
 		right: 0px;
 		margin: auto;
 		display: block;
