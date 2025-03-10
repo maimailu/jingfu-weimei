@@ -1877,16 +1877,9 @@ section h2.section-heading1 {
 	.logo {
 		width: 20%;
 		position: relative;
-		padding-bottom: 50%;
+		padding-bottom: 5%;
 	}
 
-	.slogon-pic {
-		width: 40%;
-		position: relative;
-		padding-top: 8%;
-		right: 0px;
-		bottom: 600px;
-	}
 
 }
 
@@ -1898,19 +1891,12 @@ section h2.section-heading1 {
 	.logo {
 		width: 20%;
 		position: relative;
-		padding-bottom: 55%;
+		padding-bottom: 5%;
 		margin: auto;
 		display: block;
 	}
 
-	.slogon-pic {
-		width: 35%;
-		position: relative;
-		padding-top: 8%;
-		right: 0px;
-		margin: auto;
-		display: block;
-	}
+
 
 	.content-width-Desktop {
 		width: 80%;
