@@ -1888,24 +1888,6 @@ section h2.section-heading1 {
 
 }
 
-@media screen and (max-width: 1192px) {
-
-	.logo {
-		width: 18%;
-		position: relative;
-		padding-bottom: 50%;
-	}
-
-	.slogon-pic {
-		width: 35%;
-		position: relative;
-		padding-top: 8%;
-		right: 0px;
-		bottom: 600px;
-	}
-
-}
-
 
 
 
@@ -1969,6 +1951,25 @@ section h2.section-heading1 {
 	}
 
 
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+	.logo {
+		width: 18%;
+		position: relative;
+		padding-bottom: 45%;
+	}
+
+	.slogon-pic {
+		width: 35%;
+		position: relative;
+		padding-top: 8%;
+		right: 0px;
+		bottom: 600px;
+	}
 
 }
 
