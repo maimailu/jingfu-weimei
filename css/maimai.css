@@ -1891,12 +1891,12 @@ section h2.section-heading1 {
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1196px) {
 
 	.logo {
 		width: 20%;
 		position: relative;
-		padding-bottom: 45%;
+		padding-bottom: 55%;
 		margin: auto;
 		display: block;
 	}
@@ -1975,7 +1975,7 @@ section h2.section-heading1 {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991px) {
 
 
 	.logo {
